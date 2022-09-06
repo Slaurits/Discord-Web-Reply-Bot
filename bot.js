@@ -23,7 +23,7 @@ client.on("message", msg => {
         eventstreams[i].flushHeaders();
     }
 });
-client.login("MTAxMjc0NjQ0NTE4MDM4MzI5Mw.GrsCGa.M5F8ukjOoy_2sWraYLWTkRILIy3Mzmy5aUH_oA");
+client.login("INSERT TOKEN HERE");
 app.get("/", function(request, response) {
     response.writeHead(200, {"content-type":"text/html"});
     fs.createReadStream("index.html").pipe(response);
